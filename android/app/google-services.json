@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "141394141818",
+    "project_id": "simpleconnect-34554",
+    "storage_bucket": "simpleconnect-34554.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141394141818:android:e15c1d2e27b9f5686851c3",
+        "android_client_info": {
+          "package_name": "com.siva.echat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChEFfHrrmPPmLNjtst8RbUmR0aJs3GGM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

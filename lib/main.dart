@@ -6,7 +6,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sqflite/sqflite.dart';
 import 'Firebase/LocalNotification.dart';
 import 'Firebase/PushNotification.dart';
-import 'Firebase/controllers/firebase_options.dart';
 import 'Screens/Login/Presentation/login_screen.dart';
 import 'Utils/Constants/AppRoutes.dart';
 late final Database localDB;
@@ -43,7 +42,7 @@ Future main() async {
     DeviceOrientation.portraitDown,
   ]);
   // localDB = await DBHelper().database;
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await Firebase.initializeApp();
   await PushNotificationService().init();
   await LocalNotification.localInit();
 
